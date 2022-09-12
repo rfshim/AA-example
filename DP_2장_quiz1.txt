@@ -1,0 +1,8 @@
+@startuml
+interface IType
+abstract Type1
+Type1 ..|> IType
+Type2 ..|> IType
+Type3 --|> Type1
+Type4 --|> Type2
+@enduml
